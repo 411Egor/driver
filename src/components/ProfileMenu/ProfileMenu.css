@@ -1,0 +1,60 @@
+.profile-menu{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+profile-menu .active{
+    color: #ebebeb;
+}
+
+.profile-menu .back{
+    border-radius: 50%;
+    background: #6217c5;
+    margin-left: 10px;
+}
+
+.profile-menu .back img{
+    width: 16px;
+    padding: 8px;
+    transform: scale(-1,1);
+
+}
+
+.profile-menu .driver-photo img{
+    width: 65px;
+}
+
+.off{
+    padding: 6px 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 50%;
+}
+
+.off .fa{
+    font-size: 32px;
+    color: #6217c5;
+}
+.status{
+    font-size: 18px;
+    position: relative;
+    padding: 0 10px;
+}
+.dots img{
+    width: 25px;
+    height: 10px;
+    transform: rotate(90deg);
+}
+
+.profile-menu .status-active:before{
+    content: '';
+    height: 5px;
+    background: #6217c5;
+    position: absolute;
+    width: 100%;
+    bottom: -27px;
+    border-radius: 10px;
+    left: 0;
+}

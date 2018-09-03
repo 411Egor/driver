@@ -1,0 +1,199 @@
+.road-map .map{
+    background-image: url(../../assets/img/map.png);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+
+.road-map .minus, .road-map .plus {
+    color: #6217c5;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    margin-top: 25px;
+    right: 0;
+    background: #fff;
+    padding: 9px 14px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.road-map .minus{
+    margin-top: 85px;
+}
+
+.road-map .fa{
+    vertical-align: middle;
+}
+
+.road-map .more-info{
+    left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: fixed;
+    padding: 20px 10px;
+    right: 0;
+    bottom: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.more-info .wp .distance{
+    margin: 20px 0;
+    color: #ffab04;
+}
+
+.more-info .wp .time{
+    color: #6217c5;
+}
+
+.more-info img{
+    width: 30px;
+    text-align: center;
+}
+
+.more-info .close{
+    color: #bfc7dc;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: 100;
+}
+
+
+.road-map .more-info .address p{
+    margin: 20px 0;
+}
+
+.more-info .wp{
+    letter-spacing: 1px;
+}
+.road-map .more-info .time-wp {
+    flex-flow: column;
+    display: flex;
+    margin-right: 5px;
+}
+.road-map .more-info .time-wp .time{
+    margin: 5px 0;
+}
+.road-map .more-info .price{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #ffab04;
+    white-space: nowrap;
+}
+
+.road-map .more-info .time-wp .distance{
+    color: #3ab72d;
+    white-space: nowrap;
+}
+
+.road-map .more-info .time-wp .time{
+    color: #6217c5;
+}
+
+.actions{
+    background-color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 10px;
+    bottom: -160px;
+}
+
+.actions button{
+    width: 100%;
+    display: block;
+    color: #ffffff;
+    padding: 18px 20px;
+    font-size: 14px;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #6217c5;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    
+}
+
+.actions .start{
+    background-color: #ffac00;
+}
+
+.actions .close{
+    color: #c6c8e1;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.road-map .more-info .address{
+    padding-left: 25px;
+    position: relative;
+}
+.road-map .more-info .address p:first-child:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background: #710fc9;
+    left: 0;
+    top: 22px;
+
+}
+
+.road-map .more-info .address p:last-child:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background: #ffab04;
+    left: 0;
+    bottom: 19px;
+}
+
+.road-map .more-info .address:before{
+    content: '';
+    position: absolute;
+    transform: rotate(180deg);
+    width: 3px;
+    background: linear-gradient(to top, #710fc9, #ffab04);
+    left: 5.5px;
+    top: 32px;
+    height: 33px;
+
+}
+
+.road-map .more-info .address p{
+    margin: 20px 0;
+    text-align: left;
+}
+
+.actions p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}

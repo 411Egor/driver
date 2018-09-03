@@ -1,0 +1,250 @@
+.bargain{
+    display: inline-block;
+    width: 100%;
+    background: #f6f6f6;
+    letter-spacing: 1px;
+}
+.bargain .more-info{
+    font-size: 14px;
+    padding: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.bargain .bg-wp{
+    margin: 10px;
+    background-color: #fff;
+}
+
+.bargain .wp{
+    display: inline-block;
+}
+
+.bargain .more-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bargain .numbers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.bargain .numbers .minus, .bargain .numbers .count, .bargain .numbers .plus {
+    display: inline-block;
+    font-size: 45px;
+    color: #fff;
+    width: 80px;
+    height: 70px;
+    border: none;
+}
+
+.bargain .numbers .minus, .bargain .numbers .plus {
+    background-color: #e9ecf2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.bargain .numbers .count{
+    text-align: center;
+    color: #e9ecf2;
+    font-size: 36px;
+    display: flex;
+}
+
+.bargain .numbers .count-active span{
+    font-size: 36px;
+    color: #ffab04;
+}
+
+.bargain .numbers .minus-active{
+    display: inline-block;
+    font-size: 36px;
+    color: #fff;
+    width: 80px;
+    height: 70px;
+    border: none;
+    background-color: #f24841;
+
+}
+
+
+.bargain .numbers .plus-active{
+    display: inline-block;
+    font-size: 36px;
+    color: #fff;
+    width: 80px;
+    height: 70px;
+    border: none;
+    background-color: #00b600;
+}
+
+.bargain .numbers .plus-active{
+    background-color: #00b600
+}
+
+
+.bargain .more-info .address{
+    padding-left: 25px;
+    position: relative;
+}
+.bargain .more-info .address p:first-child:before{
+     content: '';
+     width: 13px;
+     height: 13px;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     border-radius: 50%;
+     position: absolute;
+     background: #710fc9;
+     left: 0;
+     top: 22px;
+
+ }
+
+.bargain .more-info .address p:last-child:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background: #ffab04;
+    left: 0;
+    bottom: 19px;
+}
+
+.bargain .more-info .address:before{
+    content: '';
+    position: absolute;
+    transform: rotate(180deg);
+    width: 3px;
+    background: linear-gradient(to top, #710fc9, #ffab04);
+    left: 5.5px;
+    top: 32px;
+    height: 33px;
+
+}
+
+.bargain .more-info .address p{
+    margin: 20px 0;
+}
+
+
+.bargain .more-info .time-wp {
+    flex-flow: column;
+    display: flex;
+    margin-right: 5px;
+}
+.bargain .more-info .time-wp .time{
+    margin: 5px 0;
+}
+.bargain .more-info .price{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #ffab04;
+    white-space: nowrap;
+}
+
+.bargain .more-info .time-wp .distance{
+    color: #3ab72d;
+    white-space: nowrap;
+}
+
+.bargain .more-info .time-wp .time{
+    color: #6217c5;
+}
+
+.bargain .comment{
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    padding: 40px 20px;
+}
+
+.bargain .comment:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #b8b8d4;
+    width: 130px;
+    left: 50%;
+    top: 10px;
+    margin-left: -65px;
+}
+
+.bargain .comment:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #b8b8d4;
+    width: 230px;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -115px;
+}
+
+.bargain .icons{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.bargain .icons img{
+    height: 25px;
+    margin: 0 10px;
+}
+.bargain .plus-active, .bargain .minus-active{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 32px;
+}
+
+.bargain .numbers{
+    margin: 0;
+}
+
+.bargain .count{
+    text-align: center;
+    color: #ffab04;
+    font-size: 32px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bargain .big-btn{
+    position: static;
+    font-size: 18px;
+}
+
+.bargain .coefficient{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.bargain .coefficient button{
+    background-color: #ffac00;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 8px;
+    letter-spacing: 1px;
+
+}
+

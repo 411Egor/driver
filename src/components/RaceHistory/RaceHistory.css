@@ -1,0 +1,71 @@
+.race-history{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: inline-block;
+}
+
+.race-history .income{
+    display: flex;
+    padding: 15px 25px;
+    justify-content: space-between;
+    color: #d0cfe1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.item{
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+.race-history .income span{
+    color: #6217c5;
+    font-size: 21px;
+}
+
+.finish-race{
+    padding: 15px 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.finish-race img{
+    width: 7px;
+}
+
+.finish-race .time{
+    font-size: 16px;
+    color: #000000;
+    display: flex;
+    flex-flow: column;
+    max-width: 130px;
+}
+
+.finish-race .time span{
+    font-size: 14px;
+    color: #6217c5;
+    margin-top: 10px;
+}
+
+.finish-race .count{
+    color: #ffac00;
+    font-size: 24px;
+}
+
+.finish-race .del{
+    color: #e8404c;
+    font-size: 16px;
+}
+
+.item button{
+    border: none;
+    background-color: transparent;
+}

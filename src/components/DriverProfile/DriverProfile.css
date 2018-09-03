@@ -1,0 +1,147 @@
+.driver-info-wp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.driver-profile{
+    background: #f4f4f4;
+}
+
+.driver-profile-wp{
+    margin: 10px;
+    background-color: #fff;
+    padding: 25px;
+}
+.col-wp{
+    letter-spacing: 1px;
+}
+.driver-info{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.driver-phone{
+    margin: 5px 0;
+}
+.driver-profile .driver-img img{
+    width: 75px;
+}
+.driver-car{
+    color: #6217c5;
+}
+.driver-info .driver-img{
+    margin-right: 15px;
+}
+.driver-info-wp button{
+    border: none;
+    background-color: #6217c5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.driver-info-wp button img{
+    width: 15px;
+}
+.driver-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+
+.driver-list .list-status{
+    color: #6217c5;
+    font-size: 18px;
+}
+.list-status .fa{
+    color: #d9d9d9;
+    padding: 0 2px;
+    font-size: 16px;
+}
+.list-name{
+    font-size: 16px;
+}
+
+.list-status .fa-active{
+    color: #ffb652;
+}
+
+.driver-profile{
+    width: 100%;
+    display: inline-block;
+}
+
+.driver-profile .flex-wp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-wp button{
+    border: none;
+    background-color: transparent;
+}
+
+.flex-wp .info button img{
+    width: 60px;
+}
+
+.flex-wp .info{
+    padding: 25px;
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.flex-wp .count{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    width: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.flex-wp .count span{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #6217c5;
+}
+.flex-wp button img{
+    width: 12px;
+}
+
+.count-wp{
+    display: flex;
+    flex-flow: column;
+}
+
+.first-img{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.history{
+    padding: 25px;
+    margin: 10px;
+    margin-top: 0;
+    background-color: #ffffff;
+}
+.first-img img{
+    width: 40px;
+    margin-right: 15px;
+}
